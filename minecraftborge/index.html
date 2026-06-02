@@ -31,6 +31,7 @@
         Installing mods is even simpler: simply download the mods of your choice (make sure they're compatible with your Minecraft version) and drag them into the 'mods' folder
         located in your .minecraft instance folder.
       </p>
+      <hr>
       <h2>
         Mod development
       </h2>
@@ -42,6 +43,7 @@
         Additionally, download the latest <a href="files" target="_blank">MinecraftBorge patch files</a>.
         Also make sure you run RetroMCP using a Java JDK! A mere JRE will not do (my recommendation is the Azul Zulu distribution).
       </p>
+      <br>
       <p>
         <h3>Step 1: setup</h3>
         Place RetroMCP into the desired workspace folder and run it. Then select the desired MinecraftBorge version (only b1.7.3 is available as of now).
@@ -53,6 +55,7 @@
       <p>
         <img src="img/moddev2.png" alt="Press 'yes' on the confirmation screen">
       </p>
+      <br>
       <p>
         <h3>Step 2: decompilation</h3>
         Press the 'decompile' button, and wait for it to finish. If any warnings appear they can usually be safely ignored.
@@ -60,6 +63,7 @@
       <p>
         <img src="img/moddev3.png" alt="Press the 'decompile' button">
       </p>
+      <br>
       <p>
         <h3>Step 3: patching</h3>
         Extract the minecraftborge.patch.zip and copy the contents into the 'patches' folder (located in the same directory as RetroMCP, create the folder if it does not yet exist).
@@ -69,6 +73,7 @@
       <p>
         <img src="img/moddev4.png" alt="Select Apply Patch to apply minecraftborge patches">
       </p>
+      <br>
       <p>
         <h3>Step 4: brainwashing</h3>
         Time to brainwash RetroMCP into thinking the new MinecraftBorge source is actually the original source code!
@@ -81,12 +86,16 @@
       <p>
         <img src="img/moddev6.png" alt="pretty sure">
       </p>
+      <br>
       <p>
         <h3>Step 5: code away!</h3>
         That was all the setup! Now the minecraft and minecraft_server workspaces can be used to code your mod for the client and server respectively.
         Make sure to NEVER at ANY TIME modify Minecraft or MinecraftBorge classes as they would then be included in your mod JAR and that is something unwanted.
         Have fun modding!
       </p>
+    </div>
+    <div style="text-align: center">
+      <img src="img/minecraftborge.png" style="padding: 20px;" alt="logo">
     </div>
   </body>
 </html>
